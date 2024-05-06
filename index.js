@@ -1,4 +1,4 @@
-import jsonServer from "json-server"; // importing json-server library
+import {jsonServer} from "json-server"; // importing json-server library
 const server = jsonServer.create();
 const router = jsonServer.router("data.json");
 const middlewares = jsonServer.defaults();
